@@ -801,7 +801,7 @@ text-align: center;
    
     /* max-width: calc(100% - 28px); */
 }
-.card-footer-inner{
+.card-footer-box{
     margin-top: 290px;
     color: var(--primary-color);
      width:100%;
@@ -822,7 +822,7 @@ text-align: center;
     transform: translateX(-50%);
     pointer-events: none;
 }
-.person-wrap{
+.person-img{
   width: 270px;
   height: 480px;
   overflow: hidden;
@@ -832,7 +832,7 @@ text-align: center;
   justify-content:center;
   background: transparent;
 }
-.person-wrap img{
+.person-img img{
   width: 300px;
   height: 390px;
   object-fit: cover;
@@ -947,7 +947,7 @@ text-align: center;
     .Offer-btn{
         font-size: 18px;
     }
-    .person-wrap{
+    .person-img{
         width:100%;
     }
 }
