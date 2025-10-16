@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fancybox css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <title>ROYAL AVIATION</title>
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <div></div>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our&nbspServices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aircraft&nbspFleet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About&nbspUs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                    <div class="login-box d-flex">
+                        <div class="search-box">
+                            <img src="./images/search.png" alt="">
+                        </div>
+                        <div class="user-box">
+                            <img src="./images/user.png" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Offcanvas (mobile menu) -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+
+            <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Aircraft Fleet</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="login-box d-flex">
+                <div class="search-box">
+                    <img src="./images/search.png" alt="">
+                </div>
+                <div class="user-box">
+                    <img src="./images/user.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner section -->
+    <section class="banner position-relative">
+        <div class="container">
+            <div class="banner-content">
+                <h1>Charter Flight Through Out The World</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Tellus nulla suspendisse est odio orci convallis nibh vitae
+                    venenatis. Lorem nisl dui convallis praesent.</p>
+                <a href="" class="btn banner-btn">Book Your Flight <img src="images/banner-small-plane.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!-- aviation-section -->
+    <section class="royal-aviation">
+        <div class="container">
+            <div class="aviation-club">
+                <div class="aviation-top-title">
+                    <span class="cmn-btn">Hello Dreamer!</span>
+                    <h2>Your Perfect Day With <span>Royal Aviation Club</span></h2>
+                </div>
+                <div class="popup-box">
+                    <div class="popup-img">
+                        <img src="./images/popup-img.png" alt="">
+                    </div>
+                    <div class="popup-btn">
+                        <a data-fancybox href="https://www.youtube.com/watch?v=hzqYcE1ZNE0">
+                            <img src="./images/popup-btn.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="dream-come position-relative">
+            <span class="cmn-btn position-absolute">Dream Come True!</span>
+            <img src="images/title-img.png" alt="">
+        </div>
+        <div class="container-jet">
+            <div class="dream-come-title">
+                <h2>"Discover the Art of Luxury Travel with <span>Private Jets</span>”</h2>
+                <p>Private air travel designed around you, not the other way around.</p>
+            </div>
+            <div class="row">
+                <div class=" col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="jet-card text-center">
+                        <img src="./images/plane-1.png" class="img-fluid rounded-top" alt="">
+                        <div class="p-4 jet-title">
+                            <h4 class="mb-1">Dassault Falcon 7x</h4>
+                            <p>Capacity Upto 15 People</p>
+                            <a href="#" class="btn book-btn">Book Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="jet-card text-center">
+                        <img src="./images/plane-2.png" class="img-fluid rounded-top" alt="">
+                        <div class="p-4 jet-title">
+                            <h4 class="mb-1">Dassault Falcon 7x</h4>
+                            <p>Capacity Upto 15 People</p>
+                            <a href="#" class="btn book-btn">Book Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="jet-card text-center">
+                        <img src="./images/plane-3.png" class="img-fluid rounded-top" alt="">
+                        <div class="p-4 jet-title">
+                            <h4 class="mb-1">Dassault Falcon 7x</h4>
+                            <p>Capacity Upto 15 People</p>
+                            <a href="#" class="btn book-btn">Book Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="jet-card text-center">
+                        <img src="./images/plane-4.png" class="img-fluid rounded-top" alt="">
+                        <div class="p-4 jet-title">
+                            <h4 class="mb-1">Dassault Falcon 7x</h4>
+                            <p>Capacity Upto 15 People</p>
+                            <a href="#" class="btn book-btn">Book Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="jet-card text-center">
+                        <img src="./images/plane-5.png" class="img-fluid rounded-top" alt="">
+                        <div class="p-4 jet-title">
+                            <h4 class="mb-1">Dassault Falcon 7x</h4>
+                            <p>Capacity Upto 15 People</p>
+                            <a href="#" class="btn book-btn">Book Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="jet-card text-center">
+                        <img src="./images/plane-6.png" class="img-fluid rounded-top" alt="">
+                        <div class="p-4 jet-title">
+                            <h4 class="mb-1">Dassault Falcon 7x</h4>
+                            <p>Capacity Upto 15 People</p>
+                            <a href="#" class="btn book-btn">Book Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jet-bottom-btn text-center">
+                <a href="" class="explore-btn">Explore More <img src="images/banner-small-plane.png" alt=""></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services">
+        <div class="dream-come position-relative">
+            <span class="cmn-btn position-absolute">Services</span>
+            <img src="images/title-img.png" alt="">
+        </div>
+        <div class="container">
+            <div class="services-title text-capitalize">
+                <h2>Our jet charter <span>services</span></h2>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur. In porta et tincidunt tellus volutpat in.
+                    Tortor sed maecenas
+                </p>
+            </div>
+            <div class="row services-1st-row">
+                <div class="col-lg-12">
+                    <div class="services-card position-relative">
+                        <div class="card-highlight position-absolute"></div>
+                        <div class="services-text text-capitalize">
+                            <span class="services-text-title">Business</span>
+                            <h3><span>business</span> jet charter</h3>
+                            <p>Check out strategies, ask questions and learn in the most effective way!</p>
+                            <a href="" class="services-btn-2">Explore Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                        <div class="services-img">
+                            <img src="images/services-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="services-card position-relative">
+                        <div class="card-highlight position-absolute"></div>
+                        <div class="services-text text-capitalize">
+                            <span class="services-text-title">Business</span>
+                            <h3><span>business</span> jet charter</h3>
+                            <p>Check out strategies, ask questions and learn in the most effective way!</p>
+                            <a href="" class="services-btn-2">Explore Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                        <div class="services-img">
+                            <img src="images/services-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="services-card position-relative services-card-3">
+                        <div class="card-highlight position-absolute"></div>
+                        <div class="services-text text-capitalize">
+                            <span class="services-text-title">Business</span>
+                            <h3><span>business</span> jet charter</h3>
+                            <p>Check out strategies, ask questions and learn in the most effective way!</p>
+                            <a href="" class="services-btn-2">Explore Now <img src="images/banner-small-plane.png"
+                                    alt=""></a>
+                        </div>
+                        <div class="services-img">
+                            <img src="images/services-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dream-come position-relative">
+                <span class="cmn-btn position-absolute text-capitalize">Special offer</span>
+                <img src="images/title-img.png" alt="">
+            </div>
+            <h2 class="Special-Offer-h2">
+                Experience Luxury in the Clouds —
+                <span> Special Offer Inside </span>
+            </h2>
+            <div class="row offer-row-1">
+                <div class="col offer-col text-capitalize">point of depeture</div>
+                <div class="col offer-col text-capitalize">point of arrival</div>
+                <div class="col offer-col text-capitalize">date of departure</div>
+                <div class="col offer-col text-capitalize">aircraft</div>
+                <div class="col offer-col text-capitalize">cost</div>
+                <div class="col offer-col text-capitalize">leave a request</div>
+            </div>
+            <div class="row Special-Offer-row-2">
+                <div class="col"><span>mumbai</span></div>
+                <div class="col"><span>paris</span></div>
+                <div class="col"><span>10/08 - 11/08</span></div>
+                <div class="col"><span>falcon 600</span></div>
+                <div class="col"><span>12000 uSD</span></div>
+                <div class="col">
+
+                    <a href="#" class="btn book-btn Offer-btn">Book Now <img src="images/banner-small-plane.png"
+                            alt=""></a>
+
+                </div>
+            </div>
+
+            <div class="row Special-Offer-row-2">
+                <div class="col"><span>mumbai</span></div>
+                <div class="col"><span>paris</span></div>
+                <div class="col"><span>10/08 - 11/08</span></div>
+                <div class="col"><span>falcon 600</span></div>
+                <div class="col"><span>12000 uSD</span></div>
+                <div class="col">
+
+                    <a href="#" class="btn book-btn Offer-btn">Book Now <img src="images/banner-small-plane.png"
+                            alt=""></a>
+
+                </div>
+            </div>
+
+            <div class="row Special-Offer-row-2">
+                <div class="col"><span>mumbai</span></div>
+                <div class="col"><span>paris</span></div>
+                <div class="col"><span>10/08 - 11/08</span></div>
+                <div class="col"><span>falcon 600</span></div>
+                <div class="col"><span>12000 uSD</span></div>
+                <div class="col">
+
+                    <a href="#" class="btn book-btn Offer-btn">Book Now <img src="images/banner-small-plane.png"
+                            alt=""></a>
+
+                </div>
+            </div>
+
+            <div class="row Special-Offer-row-2">
+                <div class="col"><span>mumbai</span></div>
+                <div class="col"><span>paris</span></div>
+                <div class="col"><span>10/08 - 11/08</span></div>
+                <div class="col"><span>falcon 600</span></div>
+                <div class="col"><span>12000 uSD</span></div>
+                <div class="col">
+
+                    <a href="#" class="btn book-btn Offer-btn">Book Now <img src="images/banner-small-plane.png"
+                            alt=""></a>
+
+                </div>
+            </div>
+
+            <div class="row Special-Offer-row-2">
+                <div class="col"><span>mumbai</span></div>
+                <div class="col"><span>paris</span></div>
+                <div class="col"><span>10/08 - 11/08</span></div>
+                <div class="col"><span>falcon 600</span></div>
+                <div class="col"><span>12000 uSD</span></div>
+                <div class="col">
+
+                    <a href="#" class="btn book-btn Offer-btn">Book Now <img src="images/banner-small-plane.png"
+                            alt=""></a>
+
+                </div>
+            </div>
+            <div class="Offer-btn-2">
+                <a href="" class="services-btn-2">Explore More <img src="images/banner-small-plane.png" alt=""></a>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
+    <!--mission section -->
+    <section class="mission">
+        <div class="container">
+            <div class="dream-come position-relative">
+                <span class="cmn-btn position-absolute">Services</span>
+                <img src="images/title-img.png" alt="">
+            </div>
+            <h2 class="mission-h2 text-capitalize">
+                Meet the Minds Behind
+                <span> the Mission </span>
+            </h2>
+            <div class="mission-slider">
+                <div class="mission-slide">
+                    <div class="person-wrap">
+                        <img src="./images/Mission-1.png" alt="Alicia Cierra">
+                    </div>
+                    <img src="./images/Ashi 2 .2(1).png" class="card-ornament" alt="">
+                    <div class="card-footer">
+                        <div class="card-footer-inner text-center">
+                            <h4 class="card-name">Alicia Cierra</h4>
+                            <p class="card-role">Director Of Royal Aviation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mission-slide">
+                    <div class="person-wrap">
+                        <img src="./images/Mission-2.png" alt="Alicia Cierra">
+                    </div>
+                    <img src="./images/Ashi 2 .2(1).png" class="card-ornament" alt="">
+                    <div class="card-footer">
+                        <div class="card-footer-inner text-center">
+                            <h4 class="text-capitalize">sargio marquina</h4>
+                            <p class="text-capitalize">managing head</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mission-slide">
+                    <div class="person-wrap">
+                        <img src="./images/Mission-3.png" alt="Alicia Cierra">
+                    </div>
+                    <img src="./images/Ashi 2 .2(1).png" class="card-ornament" alt="">
+                    <div class="card-footer">
+                        <div class="card-footer-inner text-center">
+                            <h4 class="text-capitalize">raquel murio</h4>
+                            <p class="text-capitalize">head of customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mission-slide">
+                    <div class="person-wrap">
+                        <img src="./images/Mission-4.png" alt="Alicia Cierra">
+                    </div>
+                    <img src="./images/Ashi 2 .2(1).png" class="card-ornament" alt="">
+                    <div class="card-footer">
+                        <div class="card-footer-inner text-center">
+                            <h4 class="text-capitalize">marcedice herara</h4>
+                            <p class="text-capitalize">chief executive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mission-slide">
+                    <div class="person-wrap">
+                        <img src="./images/Mission-1.png" alt="Alicia Cierra">
+                    </div>
+                    <img src="./images/Ashi 2 .2(1).png" class="card-ornament" alt="">
+                    <div class="card-footer">
+                        <div class="card-footer-inner text-center">
+                            <h4 class="text-capitalize">Alicia Cierra</h4>
+                            <p class="text-capitalize">Director Of Royal Aviation</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="Offer-btn-2 slider-btn-2">
+                <a href="" class="services-btn-2">Know More <img src="images/banner-small-plane.png" alt=""></a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- fancybox js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <!-- bootstrap js link -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
