@@ -123,7 +123,11 @@ h4 {
     color: var(--secondary-color);
 }
 
+
+/* =================== */
 /*-- header section --*/
+/* ================= */
+
 .header {
     background: var(--black-color);
 
@@ -172,7 +176,7 @@ h4 {
     position: absolute;
     width: 17px;
     height: 10px;
-    border: 2px solid #fff;
+    border: 2px solid var(--secondary-color);
     opacity: 0.8;
     transition: 0.3s ease;
     display: none;
@@ -254,7 +258,11 @@ h4 {
     cursor: pointer;
 }
 
+
+/* =============== */
 /* banner-section */
+/* ==============*/
+
 .banner {
     max-width: 100%;
     background: url(../images/banner-2.png);
@@ -306,7 +314,10 @@ h4 {
     margin-left: 21px;
 }
 
+
+/* =============== */
 /* royal aviation */
+/* ============= */
 .royal-aviation {
 
     background: url(../images/see-trawelling.png);
@@ -341,10 +352,22 @@ h4 {
     margin: auto;
 }
 
-.aviation-top-title .cmn-btn {
+.aviation-top-title .aviation-top-title-btn{
+    width: 276px;
+    height: 59px;
     margin-bottom: 25px;
     display: inline-block;
+   background:url(../images/Frame\ 1.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   
+   border: none;
+   cursor:text;
 
+
+}
+.aviation-top-title .aviation-top-title-btn:hover{
+    color: var(--primary-color);
 }
 
 .aviation-top-title h2 {
@@ -392,23 +415,72 @@ h4 {
     position: relative;
 }
 
-.dream-come .cmn-btn {
-    position: absolute;
-
-    left: 50%;
-    top: -20px;
-    /* background: url(../images/btn-bg-2-2.png.);
-     background-repeat: no-repeat;
-  
-    background-position: center; */
-
-    transform: translate(-50%, 0%);
-
-    display: inline-block;
-    border: 1px solid var(--secondary-color);
+.dream-come .dream-come-top-btn,.services-top-btn,.special-offer-btn,.our-team-top-btn,.testimonial-top-btn{
+   width: 262px;
+   height: 59px;
+   border-radius: 16px;
+   background: linear-gradient(167deg,var(--secondary-color),var(--black-color),var(--secondary-color));
+   padding: 1px;
+   position: absolute;
+   top: -16px;
+   left: 50%;
+   transform: translateX(-50%);
 
 }
-
+.dream-come-card-btn{
+    width: 185px;
+    height: 55px;
+    background: linear-gradient(167deg,var(--secondary-color),var(--black-color),var(--secondary-color));
+    padding: 1px;
+    border-radius: 33px;
+    margin: auto;
+}
+.dream-come-card-btn a{
+     width:100%;
+   height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    background: var(--black-color);
+    color: var(--primary-color);
+    font-size: 22px;
+    font-family: "Arlita",sans-serif;
+    transition: 0.4s ease-in-out;
+}
+.dream-come-card-btn a:hover{
+    color: var(--secondary-color);
+}
+.dream-come-card-btn a img{
+    width: 18px;
+    height: 14px;
+    margin-left: 8px;
+}
+.services-top-btn{
+    width: 210px;
+}
+.special-offer-btn{
+    width: 251px;
+}
+.our-team-top-btn{
+    width: 223px;
+}
+.testimonial-top-btn{
+    width: 247px;
+    top: 25px;
+}
+.dream-come .dream-come-top-btn>span,.services-top-btn>span,.special-offer-btn>span,.our-team-top-btn>span,.testimonial-top-btn>span{
+    width:100%;
+   height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: var(--black-color);
+    color: var(--primary-color);
+    font-size: 25px;
+    font-family: "Clash Grotesk",sans-serif;
+}
 .dream-come-title {
     display: flex;
     flex-direction: column;
@@ -551,24 +623,26 @@ h4 {
 }
 
 .jet-bottom-btn {
-    margin-top: 30px;
+   
+     width: 247px;
+    height: 67px;
+    background: linear-gradient(167deg,var(--secondary-color),var(--black-color),var(--secondary-color));
+    padding: 1px;
+    border-radius: 33px;
+    margin:30px auto 0;
 }
 
 .explore-btn {
-    border: 1px solid var(--secondary-color);
+     width:100%;
+   height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 33px;
-    padding: 21px 29px 21px 31px;
+    background: var(--black-color);
     color: var(--primary-color);
-    text-decoration: none;
-    transition: 0.3s;
-    background: #080806;
-    font-family: "Arlita", sans-serif;
     font-size: 24px;
-
-    /* background: url(../images/btn-bg.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center; */
+    font-family: "Arlita",sans-serif;
 }
 
 .explore-btn:hover {
@@ -577,8 +651,9 @@ h4 {
     border: none;
 }
 
-
+/* ================= */
 /* services section */
+/* =============== */
 .services {
     background: url(../images/sky-trawelling-2.png);
     background-repeat: no-repeat;
@@ -700,6 +775,8 @@ h4 {
     color: var(--primary-color);
     transition: 0.4s;
     display: inline-block;
+    font-size: 22px;
+    font-family: "Arlita",sans-serif;
 }
 
 .services-btn-2:hover {
@@ -764,7 +841,10 @@ h4 {
     margin: 0 15px;
 }
 
+
+/* ================ */
 /* mission section */
+/* ============== */
 .mission {
     background: url(../images/sky-trawelling-3.png);
     background-repeat: no-repeat;
@@ -887,13 +967,16 @@ h4 {
     display: block;
 }
 
+
+/* ==================== */
 /* testimonial section */
+/* ===================*/
 .testimonial-section{
     background: var(--black-color);
     padding:135px 0 203px 0;
 }
 .testimonial-wrapper {
-    padding: 26px 61px 57px;
+    padding: 56px 61px 57px;
     border-radius: 40px;
     background: #080806;
     box-shadow: 0 0 119.5px -55px #5F4A0A;
@@ -1049,7 +1132,10 @@ h4 {
     margin: 70px 0 20px 0;
 }
 
+
+/* =================== */
 /* life-style section */
+/* ================= */
 .life-style{
     background: var(--black-color);
     padding: 0 0 328px 0;
@@ -1062,13 +1148,27 @@ h4 {
     margin-bottom: 67px;
 }
 .life-style-top-title{
-    padding: 7px 42px;
+    width: 346px;
+    height: 36px;
+    background: linear-gradient(175deg,var(--secondary-color),var(--black-color),var(--secondary-color));
+    padding: 1px;
+    border-radius: 10px;
+     margin-bottom: 15px;
+}
+.life-style-top-title span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
     color: var(--primary-color);
     font-size: 18px;
-    border: 1px solid var(--secondary-color);
+   
     border-radius: 10px;
-    display: inline-block;
-    margin-bottom: 15px;
+    
+   
+    background: var(--black-color);
 }
 .life-style-years{
     display: flex;
@@ -1153,21 +1253,36 @@ h4 {
     color: var(--primary-color);
 }
 .form-btn{
-    padding: 21px 31px;
-    background: transparent;
+    width: 270px;
+    height: 67px;
+    background:linear-gradient(169deg,var(--secondary-color),var(--black-color),var(--black-color),var(--secondary-color));
+    
+    
+    
+    margin: 49px auto 0;
+    border-radius: 33px;
+    transition: 0.4s ease-in-out;
+    padding: 1px;
+}
+.form-btn a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--black-color);
     color: var(--primary-color);
     font-family: "Arlita",sans-serif;
     font-size: 24px;
     font-weight: 400;
-    border: 1px solid var(--secondary-color);
-    display: inline-block;
-    margin-top: 49px;
     border-radius: 33px;
-    transition: 0.4s ease-in-out;
 }
 .form-btn:hover{
-    color: var(--secondary-color);
+    
     box-shadow: 0 0 19px 0px #CAB83F;
+}
+.form-btn:hover a{
+    color: var(--secondary-color);
 }
 .form-btn img{
     width: 25px;
@@ -1183,7 +1298,10 @@ h4 {
     height: 77.43px;
 }
 
+
+/* =============== */
 /* footer section */
+/* ============= */
 .footer{
     background: var(--black-color);
     padding:66px 0 68px 0;
@@ -1386,7 +1504,7 @@ h4 {
         margin-bottom: 225px;
     }
     .testimonial-wrapper{
-        padding: 26px;
+        padding: 56px 26px 26px 26px;
     }
     .life-style{
         padding: 0 0 100px 0;
@@ -1515,6 +1633,9 @@ h4 {
     }
     .form-bottom-img{
         left: 69%;
+    }
+    .life-style-top-title{
+        margin: 0 auto;
     }
 }
 @media(max-width:850px){
@@ -1650,9 +1771,7 @@ h4 {
         font-size: 40px;
         margin-top: 30px;
     }
-    .form-btn{
-        padding: 15px 25px;
-    }
+   
     .form-btn img{
         margin-left: 15px;
     }
@@ -1692,7 +1811,7 @@ h4 {
 }
 @media(max-width:610px){
     .form-bottom-img{
-        left: 77%;
+        left: 80%;
     }
 }
 
@@ -1713,6 +1832,9 @@ h4 {
     .banner-content {
         text-align: center;
     }
+    .banner{
+        padding: 50px 0;
+    }
 
     .banner-btn {
         padding: 12px 20px;
@@ -1725,6 +1847,15 @@ h4 {
 
     .jet-card {
         margin-bottom: 120px;
+    }
+    .dream-come-card-btn a{
+        font-size: 18px;
+    }
+    .jet-bottom-btn{
+        height: 50px;
+    }
+    .dream-come-card-btn{
+        height: 50px;
     }
 
     .explore-btn {
@@ -1767,6 +1898,9 @@ h4 {
     .services-card-3{
         margin-bottom: 60px;
     }
+    .services-btn-2{
+        font-size: 20px;
+    }
     .Special-Offer-h2{
         padding-bottom: 20px;
     }
@@ -1780,7 +1914,7 @@ h4 {
         padding: 30px 0 50px 0;
     }
     .testimonial-wrapper{
-        padding: 15px;
+        padding:56px 15px 15px;
     }
     .testimonial-inner{
         padding: 50px 25px 0;
@@ -1836,6 +1970,12 @@ h4 {
     .life-style-title p{
         font-size: 20px;
     }
+    .form-btn{
+        height: 60px;
+    }
+    .form-btn a{
+        font-size: 22px;
+    }
      .footer a,.footer p,.footer span{
         font-size: 20px;
     }
@@ -1884,6 +2024,9 @@ h4 {
    
 
 }
+.dream-come .dream-come-top-btn>span,.services-top-btn>span,.special-offer-btn>span,.our-team-top-btn>span,.testimonial-top-btn>span{
+    font-size: 20px;
+}
 
 @media(max-width:510px) {
 
@@ -1909,7 +2052,7 @@ h4 {
         font-size: 18px;
     }
     .form-bottom-img{
-        left:78%;
+        left:80%;
     }
     .life-style-form-box{
         padding: 0 20px 50px;
@@ -1917,9 +2060,7 @@ h4 {
     .form-label{
         font-size: 18px;
     }
-    .form-btn{
-        font-size: 20px;
-    }
+   
     .life-style-form-title{
         margin-bottom: 25px;
     }
@@ -1947,18 +2088,22 @@ h4 {
     .testimonial-star-box-left-title strong{
         margin-bottom: 10px;
     }
-    .form-btn{
-        font-size: 20px;
+   
+    .form-bottom-img{
+        left: 85%;
     }
     
 }
 @media(max-width:420px){
-        .form-bottom-img {
-        left: 82%;
-    }
-}
-@media(max-width:420px){
-       .life-style-top-title{
-        padding: 7px 20px;
+       
+       .logo{
+        height: 80px;
        }
+       .life-style-top-title{
+        width: 300px;
+       }
+       .form-btn{
+        width: 250px;
+       }
+      
 }
