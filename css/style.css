@@ -920,8 +920,35 @@ h4 {
     font-size: 20px;
     color: var(--primary-color);
     border-bottom: 1px solid #352c03;
-    margin: 0 15px;
+    margin: 0 25px;
 }
+.luxury-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+/* Inner table container */
+.luxury-table {
+  min-width: 1250px; /* force horizontal scroll on smaller screens */
+}
+.luxury-table-wrapper::-webkit-scrollbar {
+  height: 8px;
+  margin-top: 10px;
+}
+.luxury-table-wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.luxury-table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+
 
 
 /* ================ */
@@ -987,7 +1014,7 @@ h4 {
 .card-footer {
     width: 100%;
     height: 450px;
-    background: url(../images/Mission--4.png);
+    background: url(../images/mission-bg.png);
     position: absolute;
     left: 0px;
 
@@ -1032,7 +1059,7 @@ h4 {
 }
 
 .person-img {
-    width: 270px;
+   
     height: 480px;
     overflow: hidden;
 
@@ -1574,6 +1601,9 @@ h4 {
     }
     .life-style-years span{
         margin-top: 40px;
+    }
+    .offer-col{
+        font-size: 19px;
     }
 }
 
