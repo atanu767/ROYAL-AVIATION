@@ -920,7 +920,7 @@ h4 {
     font-size: 20px;
     color: var(--primary-color);
     border-bottom: 1px solid #352c03;
-    margin: 0 25px;
+    margin: 0 15px;
 }
 .luxury-table-wrapper {
   overflow-x: auto;
@@ -1779,14 +1779,9 @@ h4 {
 
 @media(max-width:820px) {
 
-    .Special-Offer-row-2,
-    .offer-row-1 {
-        flex-direction: column;
-        text-align: center;
-    }
-
+   
     .offer-row-1 .col {
-       margin: auto;
+      
        width: 97%;
        padding: 10px 0;
     }
